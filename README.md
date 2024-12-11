@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Norrito
+- PRÉNOM : Camille
+- GROUPE : C1
+- URL du site : http://scifistival.camille-norrito.fr/
+- URL FIGMA : https://www.figma.com/design/1jxTtSQC4MuLmusIU76Bxk/SAE-103-Camille-NORRITO?node-id=1-81&t=0dyD4uwnnRG1SE0Q-1 
 
 ## Sujet
 
