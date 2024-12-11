@@ -1,0 +1,7 @@
+.header__menu[ aria-expanded="false"] {
+    display: none;
+}
+
+.header__menu[aria-expended="true"] {
+    display: block;
+}
