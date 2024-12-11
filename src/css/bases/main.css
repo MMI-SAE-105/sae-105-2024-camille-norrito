@@ -1,0 +1,13 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.separator::before {
+    content: "";
+    background: black;
+    width: 50%;
+    height: 1px;
+    display: block;
+    margin: auto;
+}

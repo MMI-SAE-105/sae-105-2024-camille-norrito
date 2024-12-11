@@ -1,11 +1,154 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Sci-Fi Festival</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.svg" alt="Logo Festival" class="logo__search">
+        </div>
+        <div class="menu">
+            <img src="/assets/menu.svg" alt="Menu" class="menu__logo">
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true" aria-expanded="false">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="html/festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="html/invites.html">Les invités</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="html/infos.html">Infos pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="html/programme.html">Programmation</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="html/film.htm">Les films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="html/contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="menu__secondaire">
+                <h3>Nous suivre</h3>
+                <ul class="menu__social-network list-unstyled" aria-label="Social media">
+                    <li>
+                        <a href="https://fr-fr.facebook.com/" aria-label="Visit notre compte facebook"><img
+                                src="assets/facebookFonce.svg" alt="Icon Facebook" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" aria-label="Visit notre compte Instagram"><img
+                                src="assets/instagramfonce.svg" alt="Icon Instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/Accueil?mx=2" aria-label="Visit notre compte X"><img
+                                src="assets/twitterfonce.svg" alt="Icon twitter" /></a>
+                    </li>
+                    <li>
+                        <a href="https://fr.youtube.com/" aria-label="Visit notre compte Youtube"><img
+                                src="assets/youtubefonce.svg" alt="Icon Youtube" /></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <img src="/assets/imgMenu.webp" alt="Image header" class="hero-image">
+        <h1>Le Festival</h1>
+    </section>
+
+    <section class="introduction">
+        <div class="intro-text">
+            <p>Bienvenue au Sci-Fi Festival, le festival de cinéma de science-fiction de Belfort ! Du 1 au 14 mars 2025,
+                nous vous invitons à plonger dans un univers captivant et futuriste. Ouvert à tous, ce festival est une
+                célébration dynamique et immersive qui réunit passionnés et curieux autour d’une passion commune.</p>
+        </div>
+    </section>
+
+    <section class="programme">
+        <div class="content">
+            <p>Au programme, des courts-métrages inédits réalisés par des talents venant de tous horizons, qui
+                participeront à un concours pour tenter de remporter des prix.</p>
+            <img src="/assets/pagefestival1.webp" alt="Poster de film" class="program-image">
+            <p>Vous pourrez également assister à la projection de films emblématiques de genre ainsi que des perles
+                rares, souvent accompagnées de leurs réalisateurs, offrant l’occasion unique de les rencontrer et
+                échanger avec eux. Que vous soyez amateur ou expert en science-fiction, c’est une opportunité d’enrichir
+                votre culture cinématographique tout en vous divertissant.</p>
+
+            <p>Pour les amateurs de musique, ne manquez pas notre concert dédié aux bandes originales cultes des films
+                de science-fiction. Les mélodies qui ont marqué l’histoire du cinéma seront interprétées pour raviver
+                vos souvenirs et enrichir l’expérience cinématographique du festival.</p>
+            <img src="/assets/pagefestival2.webp" alt="Concert Sci-Fi" class="concert-image">
+            <p>Soyez prêts à vivre une aventure inoubliable au Sci-Fi’stival !</p>
+            <span class="separator"></span>
+        </div>
+    </section>
+
+    <section class="team separator">
+        <h4>Notre équipe</h4>
+        <div class="team-members">
+            <div class="member">
+                <img src="/assets/employe_1.webp" alt="Thomas Morel">
+                <h5>Thomas Morel</h5>
+                <h6>Coordinateur logistique</h6>
+            </div>
+            <div class="member">
+                <img src="/assets/employe_2.webp" alt="Sophie Lemine">
+                <h5>Sophie Lemine</h5>
+                <h6>Directrice artistique</h6>
+            </div>
+            <div class="member">
+                <img src="/assets/employe_3.webp" alt="Lucas Perrin">
+                <h5>Lucas Perrin</h5>
+                <h6>Coordinateur des bénévoles</h6>
+            </div>
+            <div class="member">
+                <img src="/assets/employe_4.webp" alt="Alice Dupuy">
+                <h5>Alice Dupuy</h5>
+                <h6>Chargée de communication</h6>
+            </div>
+            <div class="member">
+                <img src="/assets/employe_5.webp" alt="Camille Roche">
+                <h5>Camille Roche</h5>
+                <h6>Responsable des partenariats</h6>
+            </div>
+            <div class="member">
+                <img src="/assets/employe_6.webp" alt="Julien Garnier">
+                <h3>Julien Garnier</h3>
+                <h6>Rédacteur technique</h6>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-menu">
+            <img src="/assets/logo.svg" alt="logo">
+            <h2>Festival de science fiction</h2>
+            <ul class="list-unstyled">
+                <li><a href="#">Mentions Legales</a></li>
+                <li><a href="#">Archives</a></li>
+                <li><a href="#">Contacts & Accés</a></li>
+            </ul>
+            <h4>CONTACT</h4>
+            <p>90000 Belfort <br> 03 84 54 27 27 <br>contact@sci-fi-stival.fr</p>
+        </div>
+        <div class="social-links">
+            <h2>Nous suivre</h2>
+            <a href="https://fr-fr.facebook.com/"><img src="/assets/facebookClair.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="/assets/instagramclair.svg" alt="Instagram"></a>
+            <a href="https://x.com/Accueil?mx=2"><img src="/assets/twitterclair.svg" alt="Twitter"></a>
+            <a href="https://fr.youtube.com/"><img src="/assets/youtubeclair.svg" alt="Youtube"></a>
+        </div>
+    </footer>
 </body>
+
 </html>
