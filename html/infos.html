@@ -4,42 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sci-Fi Festival</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Infos Sci-Fi Festival</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
 
-    <link rel="icon" type="image/png" href="assets/logo.svg" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
-    <link rel="shortcut icon" href="assets/logo.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.svg" />
-    <link rel="manifest" href="assets/logo.svg" />
+    <link rel="icon" type="image/png" href="/assets/logo.svg" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg" />
+    <link rel="shortcut icon" href="/assets/logo.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo.svg" />
+
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-            <img src="/assets/logo.svg" alt="Logo Festival" class="logo__search">
+    <header class="menu-header">
+        <div class="menu__logo">
+            <img src="/assets/logo.svg" alt="Logo Festival" class="logo__festival">
         </div>
-        <div class="menu">
-            <img src="/assets/menu.svg" alt="Menu" class="menu__logo">
+        <div class="menu__hamburger">
+            <div class="menu__bar"></div>
+            <div class="menu__bar"></div>
+            <div class="menu__bar"></div>
         </div>
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true" aria-expanded="false">
+        <nav class="header__menu" id="mainNav" aria-hidden="true" aria-expanded="false">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
-                    <a class="menu__link" href="html/festival.html">Le festival</a>
+                    <h4 class="menu__link"><a href="/html/festival.html">Le festival</a></h4>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="html/invites.html">Les invités</a>
+                    <h4 class="menu__link"><a href="/html/invites.html">Les invités</a></h4>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="html/infos.html">Infos pratiques</a>
+                    <h4 class="menu__link"><a href="/html/infos.html">Infos pratiques</a></h4>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="html/programme.html">Programmation</a>
+                    <h4 class="menu__link"><a href="/html/programme.html">Programmation</a></h4>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="html/film.htm">Les films</a>
+                    <h4 class="menu__link"><a href="/html/film.htm">Les films</a></h4>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="html/contact.html">Contact</a>
+                    <h4 class="menu__link"><a href="/html/contact.html">Contact</a></h4>
                 </li>
             </ul>
             <div class="menu__secondaire">
@@ -47,93 +50,96 @@
                 <ul class="menu__social-network list-unstyled" aria-label="Social media">
                     <li>
                         <a href="https://fr-fr.facebook.com/" aria-label="Visit notre compte facebook"><img
-                                src="assets/facebookFonce.svg" alt="Icon Facebook" /></a>
+                                src="/assets/facebookFonce.svg" alt="Icon Facebook" /></a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/" aria-label="Visit notre compte Instagram"><img
-                                src="assets/instagramfonce.svg" alt="Icon Instagram" /></a>
+                                src="/assets/instagramfonce.svg" alt="Icon Instagram" /></a>
                     </li>
                     <li>
                         <a href="https://x.com/Accueil?mx=2" aria-label="Visit notre compte X"><img
-                                src="assets/twitterfonce.svg" alt="Icon twitter" /></a>
+                                src="/assets/twitterfonce.svg" alt="Icon twitter" /></a>
                     </li>
                     <li>
                         <a href="https://fr.youtube.com/" aria-label="Visit notre compte Youtube"><img
-                                src="assets/youtubefonce.svg" alt="Icon Youtube" /></a>
+                                src="/assets/youtubefonce.svg" alt="Icon Youtube" /></a>
                     </li>
                 </ul>
             </div>
         </nav>
-
     </header>
 
-    <section class="hero">
-        <img src="/assets/imgMenu.webp" alt="Image header" class="hero-image">
-        <h1>Infos pratiques</h1>
-    </section>
-
-    <section class="details">
-        <div class="description">
-            <p>Le Sci-Fi Festival se déroulera du vendredi 14 au dimanche 16 mars 2025 aux Glacis de Belfort, un espace
-                en plein air idéal pour accueillir projections, concerts et ateliers. Situé en plein cœur de Belfort, le
-                Glacis est facilement accessible et offre un cadre convivial pour profiter pleinement de l’événement.
+    <main>
+        <section class="hero">
+            <img src="/assets/imgMenu.webp" alt="Image header" class="hero-image">
+            <h1>Infos pratiques</h1>
+        </section>
+        
+        <section class="details">
+            <div class="description">
+                <p>Le Sci-Fi Festival se déroulera du vendredi 14 au dimanche 16 mars 2025 aux Glacis de Belfort, un espace
+                    en plein air idéal pour accueillir projections, concerts et ateliers. Situé en plein cœur de Belfort, le
+                    Glacis est facilement accessible et offre un cadre convivial pour profiter pleinement de l’événement.
+                </p>
+            </div>
+        
+            <div class="pricing">
+                <h3>Pass 1 jour</h3>
+                <p>15€</p>
+                <p>Accès à toutes les projections, ateliers, et animations du jour choisi.</p>
+        
+                <h3>Pass 3 jours</h3>
+                <p>35€</p>
+                <p>Profitez de l’intégralité du festival du vendredi au dimanche, incluant films, courts-métrages, concerts
+                    et rencontres.</p>
+            </div>
+        
+            <div class="reservation">
+                <h3>Comment réserver ?</h3>
+                <p>En ligne : Réservez vos billets directement via notre site en sélectionnant le pass de votre choix. Le
+                    paiement se fait en toute sécurité par carte bancaire. Vous recevrez ensuite vos billets par e-mail sous
+                    forme de QR code à présenter à l’entrée du festival.</p>
+                <p>Sur place : Des billets seront également disponibles à la billetterie du festival aux Glacis de Belfort,
+                    sous réserve de disponibilité. Nous vous conseillons de réserver en ligne pour garantir vos places.</p>
+            </div>
+        
+            <div class="conditions">
+                <h3>Conditions d’accès</h3>
+                <p>Les portes du festival ouvrent à partir de 17h le vendredi et à 9h30 les samedi et dimanche. Les billets
+                    sont non-remboursables mais transférables. Il est recommandé d’arriver en avance pour profiter
+                    pleinement des activités et éviter les files d’attente.</p>
+            </div>
+        </section>
+        
+        <section class="transport">
+            <h3>Accès et transport</h3>
+            <ul>
+                <li>En voiture : Plusieurs parkings publics sont disponibles à proximité du site, notamment le
+                    Parking du Faubourg de Montbéliard et le Parking des Glacis, à seulement quelques minutes à pied du
+                    festival.</li>
+                <li>En train : La gare de Belfort se trouve à environ 15 minutes à pied des Glacis. Des liaisons
+                    directes sont disponibles depuis Besançon, Mulhouse et Montbéliard.</li>
+                <li>En bus : Des lignes de bus locales desservent régulièrement la zone, notamment les lignes 2 et 3
+                    depuis le centre-ville.</li>
+            </ul>
+            <img src="/assets/pageinfocarte.webp" alt="Carte de Belfort" class="map">
+        </section>
+        
+        <section class="accommodation">
+            <h3>Hébergement</h3>
+            <p>Belfort propose un large choix d’hôtels, auberges et Airbnb à proximité du festival. Il est recommandé de
+                réserver à l’avance, car les hébergements peuvent se remplir rapidement pendant l’événement.</p>
+        </section>
+        
+        <section class="food">
+            <h3>Restauration</h3>
+            <p>Des food trucks seront présents sur place pour offrir une sélection variée de plats, avec des options
+                végétariennes et véganes disponibles. Vous pourrez également trouver des restaurants à proximité du Glacis.
             </p>
-        </div>
+        </section>
+    </main>
 
-        <div class="pricing">
-            <h3>Pass 1 jour</h3>
-            <p>15€</p>
-            <p>Accès à toutes les projections, ateliers, et animations du jour choisi.</p>
-
-            <h3>Pass 3 jours</h3>
-            <p>35€</p>
-            <p>Profitez de l’intégralité du festival du vendredi au dimanche, incluant films, courts-métrages, concerts
-                et rencontres.</p>
-        </div>
-
-        <div class="reservation">
-            <h3>Comment réserver ?</h3>
-            <p>En ligne : Réservez vos billets directement via notre site en sélectionnant le pass de votre choix. Le
-                paiement se fait en toute sécurité par carte bancaire. Vous recevrez ensuite vos billets par e-mail sous
-                forme de QR code à présenter à l’entrée du festival.</p>
-            <p>Sur place : Des billets seront également disponibles à la billetterie du festival aux Glacis de Belfort,
-                sous réserve de disponibilité. Nous vous conseillons de réserver en ligne pour garantir vos places.</p>
-        </div>
-
-        <div class="conditions">
-            <h3>Conditions d’accès</h3>
-            <p>Les portes du festival ouvrent à partir de 17h le vendredi et à 9h30 les samedi et dimanche. Les billets
-                sont non-remboursables mais transférables. Il est recommandé d’arriver en avance pour profiter
-                pleinement des activités et éviter les files d’attente.</p>
-        </div>
-    </section>
-
-    <section class="transport">
-        <h3>Accès et transport</h3>
-        <ul>
-            <li>En voiture : Plusieurs parkings publics sont disponibles à proximité du site, notamment le
-                Parking du Faubourg de Montbéliard et le Parking des Glacis, à seulement quelques minutes à pied du
-                festival.</li>
-            <li>En train : La gare de Belfort se trouve à environ 15 minutes à pied des Glacis. Des liaisons
-                directes sont disponibles depuis Besançon, Mulhouse et Montbéliard.</li>
-            <li>En bus : Des lignes de bus locales desservent régulièrement la zone, notamment les lignes 2 et 3
-                depuis le centre-ville.</li>
-        </ul>
-        <img src="/assets/pageinfocarte.webp" alt="Carte de Belfort" class="map">
-    </section>
-
-    <section class="accommodation">
-        <h3>Hébergement</h3>
-        <p>Belfort propose un large choix d’hôtels, auberges et Airbnb à proximité du festival. Il est recommandé de
-            réserver à l’avance, car les hébergements peuvent se remplir rapidement pendant l’événement.</p>
-    </section>
-
-    <section class="food">
-        <h3>Restauration</h3>
-        <p>Des food trucks seront présents sur place pour offrir une sélection variée de plats, avec des options
-            végétariennes et véganes disponibles. Vous pourrez également trouver des restaurants à proximité du Glacis.
-        </p>
-    </section>
+    <script src="/src/js/script.js"></script>
 
     <footer class="footer">
         <div class="footer-menu">

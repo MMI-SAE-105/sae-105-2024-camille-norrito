@@ -1,0 +1,27 @@
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    /* la largeur de l'item */
+    height: 100%;
+    /* Pour la hauteur de mon image */
+    object-fit: cover;
+    display: block;
+
+}
+

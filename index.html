@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sci'fi Stival</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="src/js/script.js"></script>
-
+    
     <link rel="icon" type="image/png" href="assets/logo.svg" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
     <link rel="shortcut icon" href="assets/logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/logo.svg" />
-    <link rel="manifest" href="assets/logo.svg" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/logo.svg" alt="Logo Festival" class="logo__search">
+    <header class="menu-header">
+        <div class="menu__logo">
+            <img src="assets/logo.svg" alt="Logo Festival" class="logo__festival">
         </div>
-        <div class="menu">
-            <img src="assets/menu.svg" alt="Menu" class="menu__logo">
+        <div class="menu__hamburger">
+                <div class="menu__bar"></div>
+                <div class="menu__bar"></div>
+                <div class="menu__bar"></div> 
         </div>
-        <nav class="header__menu menu" id="mainNav" aria-hidden="false" aria-expanded="true">
+        <nav class="header__menu" id="mainNav" aria-hidden="true" aria-expanded="false">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
-                    <h4 class="menu__link"></h4><a href="html/festival.html">Le festival</a></h4>
+                    <h4 class="menu__link"><a href="html/festival.html">Le festival</a></h4>
                 </li>
                 <li class="menu__item">
                     <h4 class="menu__link"><a href="html/invites.html">Les invités</a></h4>
@@ -105,8 +105,8 @@
         </div>
 
         <span class="separator"></span>
-        <div class="carousel">
-            <div class="carousel-inner">
+
+            <div class="carousel">
                 <div class="carousel-item active">
                     <img src="assets/carrousselInterstellar.webp" alt="Affiche Interstellar">
                 </div>
@@ -151,6 +151,8 @@
             </section>
     </main>
 
+    <script src="src/js/script.js"></script>
+
     <footer class="footer">
         <div class="footer-menu">
             <img src="assets/logo.svg" alt="logo">
@@ -163,7 +165,7 @@
             <h4>CONTACT</h4>
             <p>90000 Belfort <br> 03 84 54 27 27 <br>contact@sci-fi-stival.fr</p>
         </div>
-        <div class="social-links">
+        <div class="footer__social-network">
             <h2>Nous suivre</h2>
             <a href="https://fr-fr.facebook.com/"><img src="assets/facebookClair.svg" alt="Facebook"></a>
             <a href="https://www.instagram.com/"><img src="assets/instagramclair.svg" alt="Instagram"></a>

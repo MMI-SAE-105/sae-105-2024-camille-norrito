@@ -1,0 +1,53 @@
+.footer {
+    background-color: var(--darkpurple);
+    color: var(--beige);
+    padding: 2rem 1rem;
+    /* Espacement interne */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+
+.footer-menu {
+    margin: 25px;
+    /* Prend de la place selon le besoin */
+    max-width: 300px;
+}
+
+.footer-menu img {
+    margin: 0 auto 1rem;
+    width: 100px;
+    /* Taille du logo */
+    display: block;
+    margin-bottom: 1rem;
+}
+
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: var(--beige);
+    /* Couleur du texte des liens */
+    font-size: var(--fs-md);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.footer-menu ul li a:hover {
+    color: var(--pink);
+    /* Changement de couleur au survol */
+}
+
+.footer__social-network {
+    
+}
+
+
