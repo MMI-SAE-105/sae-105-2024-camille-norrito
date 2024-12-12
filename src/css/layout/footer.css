@@ -2,40 +2,40 @@
     background-color: var(--darkpurple);
     color: var(--beige);
     padding: 2rem 1rem;
-    /* Espacement interne */
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
 
 }
 
-.footer-menu {
-    margin: 25px;
-    /* Prend de la place selon le besoin */
-    max-width: 300px;
+
+.footer-menu:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .footer-menu img {
-    margin: 0 auto 1rem;
-    width: 100px;
-    /* Taille du logo */
-    display: block;
-    margin-bottom: 1rem;
+    width: 120px;
+    margin: 0 auto;
 }
+
 
 
 .footer-menu ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 1rem;
+    margin: 0;
+    margin-top: 2rem;
+
 }
 
 .footer-menu ul li a {
     text-decoration: none;
     color: var(--beige);
-    /* Couleur du texte des liens */
     font-size: var(--fs-md);
     display: block;
     margin-bottom: 0.5rem;
@@ -43,11 +43,27 @@
 
 .footer-menu ul li a:hover {
     color: var(--pink);
-    /* Changement de couleur au survol */
 }
 
+
+
 .footer__social-network {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
+
+.footer__social-network img {
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer__social-network img:hover {
+    transform: scale(1.4);
+}
+
+
 
 
