@@ -1,3 +1,34 @@
-@import"bases/main.css";
+/*  
+1. les polices via Google Font 
+2. Les libraries (Vendors) 
+3. Les variables (Utils) 
+4. Les règles générales (Base) 
+5. Les règles de composition (Layout) 
+6. Les composant d'interface (Components)
+ */
 
+/* Mes polices*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Syncopate:wght@400;700&display=swap');
+
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
+@import "utils/variables.css";
+
+/* Base */
+@import"bases/main.css"; 
+@import "bases/media.css";
+
+/* Layout */
+@import "layout/footer.css";
 @import "layout/header.css";
+
+/* Components */
+@import "components/card.css";
+@import "components/menu.css";
+@import "components/list.css";
+
+
+/*Trailer*/
+@import url();

@@ -3,11 +3,73 @@ img {
     height: auto;
 }
 
-.separator::before {
+body {
+    font-family: var(--font-sans);
+    font-size: var(--fs-s);
+    line-height: 1.6;
+    background-color: var(--lavender);
+    font-weight: 300;
+}
+
+/* Mes textes */
+p {
+    font-size: var(--fs-s);
+    /* Paragraphe */
+    font-weight: 600;
+    /* Semibold */
+}
+
+h1 {
+    font-family: var(--font-title-orb);
+    font-size: var(--fs-3xl);
+    /* 32px */
+    font-weight: 600;
+    /* Semibold */
+}
+
+h2 {
+    font-family: var(--font-title-sync);
+    font-size: var(--fs-md);
+    /* 15px */
+    font-weight: 400;
+    /* Regular */
+}
+
+h3 {
+    font-family: var(--font-title-orb);
+    font-size: var(--fs-xl);
+    /* 17px */
+    font-weight: 400;
+    /* Regular */
+}
+
+h4 {
+    font-size: var(--fs-lg);
+    /* 16px */
+    font-weight: 800;
+    /* Extra bold */
+}
+
+h5 {
+    font-size: var(--fs-xs);
+    /* 10px */
+    font-weight: 900;
+    /* Black */
+}
+
+h6 {
+    font-size: 0.8125rem;
+    /* 13px */
+    font-weight: 300;
+    /* Light */
+}
+
+p .separator::before {
     content: "";
     background: black;
     width: 50%;
     height: 1px;
     display: block;
     margin: auto;
+
 }
