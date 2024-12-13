@@ -1,0 +1,100 @@
+//js 
+// Récupération des éléments
+const menu = document.querySelector('.menu');
+const menuBtn = document.querySelector('.menu-btn');
+
+// Écouteur d'événement pour le bouton menu
+menuBtn.addEventListener('click', () => {
+    const isExpanded = menuBtn.getAttribute('aria-expanded') === 'true';
+
+    // Bascule de l'état du menu
+    menuBtn.setAttribute('aria-expanded', !isExpanded);
+    menu.setAttribute('aria-hidden', isExpanded);
+});
+
+//TD Pracht
+const toggle = document.querySelector(".menu-btn");
+const nav = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("open");
+});
+
+/* Style du bouton menu (croix ou hamburger) */
+.menu__logo {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z - index: 11;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header { 
+    width: 353px;
+    height: 61px;
+    background-color: var(--darkpurple);
+    border-radius: 30.5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px; 
+    box-sizing: border-box; 
+}
+
+.header__logo {
+    width: 83px;
+    height: 49px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.header__menu {
+    width: 25px;
+    margin-right: 9px; 
+    cursor: pointer; 
+}
+
+.header__menu[aria-expanded="false"] {
+    display: none;
+}
+
+.header__menu[aria-expended="true"] {
+    display: block;
+}
+
+
+.header {
+    width: 353px;
+    height: 61px;
+    background-color: var(--darkpurple);
+    border-radius: 30.5px;
+    /* La moitié de la hauteur pour des bords bien arrondis */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    /* Padding gauche et droit */
+}
+
+.header__logo {
+    width: 83px;
+    height: 49px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.header__menu {
+  margin-right: 9px; /* 25px - 16px de padding */
+}
