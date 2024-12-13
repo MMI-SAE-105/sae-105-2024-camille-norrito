@@ -1,0 +1,72 @@
+/* Section Invités */
+.guest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+.guest img {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+
+.guest h4 {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.guest p {
+    font-size: var(--fs-md);
+    margin-bottom: 1rem;
+}
+
+
+.jury {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.jury h1 {
+    font-size: var(--fs-3xl);
+    margin-bottom: 1rem;
+}
+
+.jury-member-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.jury-member {
+    text-align: center;
+    border-radius: 0;
+    padding: 1rem;
+    width: 250px;
+}
+
+.jury-member img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.jury-member h4 {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.jury-member p {
+    font-size: var(--fs-md);
+}
