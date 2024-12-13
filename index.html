@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sci'fi Stival</title>
     <link rel="stylesheet" href="src/css/style.css">
-    
+
     <link rel="icon" type="image/png" href="assets/logo.svg" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
     <link rel="shortcut icon" href="assets/logo.svg" />
@@ -14,62 +14,60 @@
 </head>
 
 <body>
-    <header class="menu-header">
-        <div class="menu__logo">
-            <img src="assets/logo.svg" alt="Logo Festival" class="logo__festival">
-        </div>
-        <div class="menu__hamburger">
+    <header>
+        <div class="menu-header">
+            <div class="menu__logo">
+                <img src="assets/logo.svg" alt="Logo Festival" class="logo__festival">
+            </div>
+            <div class="menu__hamburger">
                 <div class="menu__bar"></div>
                 <div class="menu__bar"></div>
-                <div class="menu__bar"></div> 
-        </div>
-        <nav class="header__menu" id="mainNav" aria-hidden="true" aria-expanded="false">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/festival.html">Le festival</a></h4>
-                </li>
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/invites.html">Les invités</a></h4>
-                </li>
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/infos.html">Infos pratiques</a></h4>
-                </li>
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/programme.html">Programmation</a></h4>
-                </li>
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/film.htm">Les films</a></h4>
-                </li>
-                <li class="menu__item">
-                    <h4 class="menu__link"><a href="html/contact.html">Contact</a></h4>
-                </li>
-            </ul>
-            <div class="menu__secondaire">
-                <h3>Nous suivre</h3>
-                <ul class="menu__social-network list-unstyled" aria-label="Social media">
-                    <li>
-                        <a href="https://fr-fr.facebook.com/" aria-label="Visit notre compte facebook"><img src="assets/facebookFonce.svg"
-                                alt="Icon Facebook" /></a>
+                <div class="menu__bar"></div>
+            </div>
+            <nav class="header__menu" id="mainNav" aria-hidden="true" aria-expanded="false">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/festival.html">Le festival</a></h4>
                     </li>
-                    <li>
-                        <a href="https://www.instagram.com/" aria-label="Visit notre compte Instagram"><img src="assets/instagramfonce.svg"
-                                alt="Icon Instagram" /></a>
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/invites.html">Les invités</a></h4>
                     </li>
-                    <li>
-                        <a href="https://x.com/Accueil?mx=2" aria-label="Visit notre compte X"><img src="assets/twitterfonce.svg"
-                                alt="Icon twitter" /></a>
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/infos.html">Infos pratiques</a></h4>
                     </li>
-                    <li>
-                        <a href="https://fr.youtube.com/" aria-label="Visit notre compte Youtube"><img src="assets/youtubefonce.svg" 
-                                alt="Icon Youtube" /></a>
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/programme.html">Programmation</a></h4>
+                    </li>
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/film.htm">Les films</a></h4>
+                    </li>
+                    <li class="menu__item">
+                        <h4 class="menu__link"><a href="html/contact.html">Contact</a></h4>
                     </li>
                 </ul>
-            </div>
-        </nav>
-
-    </header>
-
-    <main>
+                <div class="menu__secondaire">
+                    <h3>Nous suivre</h3>
+                    <ul class="menu__social-network list-unstyled" aria-label="Social media">
+                        <li>
+                            <a href="https://fr-fr.facebook.com/" aria-label="Visit notre compte facebook"><img
+                                    src="assets/facebookFonce.svg" alt="Icon Facebook" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" aria-label="Visit notre compte Instagram"><img
+                                    src="assets/instagramfonce.svg" alt="Icon Instagram" /></a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/Accueil?mx=2" aria-label="Visit notre compte X"><img
+                                    src="assets/twitterfonce.svg" alt="Icon twitter" /></a>
+                        </li>
+                        <li>
+                            <a href="https://fr.youtube.com/" aria-label="Visit notre compte Youtube"><img
+                                    src="assets/youtubefonce.svg" alt="Icon Youtube" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <section class="hero">
             <img src="assets/imgAcceuilHeader.webp" alt="Image principale" class="hero-image">
             <div class="hero-text">
@@ -82,6 +80,10 @@
                     avons sélectionnés pour vous !</p>
             </div>
         </section>
+    </header>
+
+    <main>
+
 
         <div class="button-group">
             <button class="service-button">
@@ -106,6 +108,9 @@
 
         <span class="separator"></span>
 
+
+        <div class="carousel-container">
+            <button class="carousel-button prev-button" aria-label="Précédent">←</button>
             <div class="carousel">
                 <div class="carousel-item active">
                     <img src="assets/carrousselInterstellar.webp" alt="Affiche Interstellar">
@@ -120,39 +125,41 @@
                     <img src="assets/carrousselOsiris.webp" alt="Affiche Osiris">
                 </div>
             </div>
+            <button class="carousel-button next-button" aria-label="Suivant">→</button>
+        </div>
 
-            <div class="homepage">
-                <div class="section">
-                    <h3 class="section__title">Le Festival</h3>
-                    <img src="assets/imgAccueil1.webp" alt="Image du festival" class="section__image">
-                    <a href="html/festival.html" class="section__button">Plus d'info</a>
-                </div>
-
-                <div class="section">
-                    <h3 class="section__title">Les invités</h3>
-                    <img src="assets/imgAccueil2.webp" alt="Image des invités" class="section__image">
-                    <a href="html/invites.html" class="section__button">Plus d'info</a>
-                </div>
-
-                <div class="section">
-                    <h3 class="section__title">Programmation</h3>
-                    <img src="assets/imgAccueil3.webp" alt="Image de la programmation" class="section__image">
-                    <a href="html/programme.html" class="section__button">Plus d'info</a>
-                </div>
+        <div class="homepage">
+            <div class="section">
+                <h3 class="section__title">Le Festival</h3>
+                <img src="assets/imgAccueil1.webp" alt="Image du festival" class="section__image">
+                <a href="html/festival.html" class="section__button">Plus d'info</a>
             </div>
 
-            <section class="partners">
-                <h4 class="accordion-header accordion-toggle">Nos Partenaires</h4>
-                <div class="partner-logos">  
-                    <div class="partner-left">
-                        <img src="assets/institutfr.webp" alt="Partenaire Institut Fr">
-                    </div>
-                    <div class="partner-right">
-                        <img src="assets/cnc.webp" alt="Partenaire CNC">
-                        <img src="assets/creditcoop.webp" alt="Partenaire Crédit Coopératif">
-                    </div>
+            <div class="section">
+                <h3 class="section__title">Les invités</h3>
+                <img src="assets/imgAccueil2.webp" alt="Image des invités" class="section__image">
+                <a href="html/invites.html" class="section__button">Plus d'info</a>
+            </div>
+
+            <div class="section">
+                <h3 class="section__title">Programmation</h3>
+                <img src="assets/imgAccueil3.webp" alt="Image de la programmation" class="section__image">
+                <a href="html/programme.html" class="section__button">Plus d'info</a>
+            </div>
+        </div>
+
+        <section class="partners">
+            <h4 class="accordion-header accordion-toggle">Nos Partenaires</h4>
+            <div class="partner-logos">
+                <div class="partner-left">
+                    <img src="assets/institutfr.webp" alt="Partenaire Institut Fr">
                 </div>
-            </section>
+                <div class="partner-right">
+                    <img src="assets/cnc.webp" alt="Partenaire CNC">
+                    <img src="assets/creditcoop.webp" alt="Partenaire Crédit Coopératif">
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="src/js/script.js"></script>

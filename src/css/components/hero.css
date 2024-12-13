@@ -1,0 +1,25 @@
+.hero {
+    position: relative; 
+    width: 100%;
+    z-index: 1;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0%;
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.hero-text p {
+    padding-top: 4px;
+}

@@ -1,3 +1,9 @@
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .carousel {
     display: flex;
     overflow-x: scroll;
@@ -17,11 +23,34 @@
 
 .carousel-item img {
     width: 100%;
-    /* la largeur de l'item */
     height: 100%;
-    /* Pour la hauteur de mon image */
     object-fit: cover;
     display: block;
 
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--darkpurple);
+    color: var(--white);
+    border-radius: 50px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-button.prev-button {
+    left: 10px;
+}
+
+.carousel-button.next-button {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: var(--pink);
 }
 

@@ -27,11 +27,29 @@ document.addEventListener('click', (e) => {
     }
 });
 
+//Caroussel
+
 const carousel = document.querySelector('.carousel');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
 
+// Vérifie si le carrousel existe
+if (carousel && prevButton && nextButton) {
+    // Définit la largeur d'un item pour le défilement
+    const scrollAmount = carousel.offsetWidth;
 
-// Définit la largeur d'un item pour le défilement
-const scrollAmount = carousel.offsetWidth;
+    // Écouteur pour le bouton précédent
+    prevButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    // Écouteur pour le bouton suivant
+    nextButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+} else {
+    console.error('Carousel or buttons not found. Please check your HTML structure.');
+}
 
 
 
@@ -39,7 +57,7 @@ const scrollAmount = carousel.offsetWidth;
 const accordionHeader = document.querySelector('.accordion-header'); 
 const partnersSection = document.querySelector('.partners');
 
-// Gestionnaire de clic pour ouvrir/fermer l'accordéon
+//        Gestionnaire de clic pour ouvrir/fermer l'accordéon
 accordionHeader.addEventListener('click', () => {
     partnersSection.classList.toggle('open'); 
 });
