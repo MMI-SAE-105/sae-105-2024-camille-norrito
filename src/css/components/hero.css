@@ -20,6 +20,18 @@
 
 }
 
+.hero h1 {
+    position: absolute;
+    top: 80%; 
+    left: 0; 
+    margin-left: 25px; 
+    transform: translateY(-50%); 
+    color: var(--pink); 
+    font-size: var(--fs-3xl); 
+    white-space: nowrap; 
+    text-align: left;
+}
+
 .hero-text p {
     padding-top: 4px;
 }

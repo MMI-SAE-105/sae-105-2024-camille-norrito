@@ -1,0 +1,21 @@
+.card {
+    top: 8px;
+    bottom: 8px;
+    background-color: var(--darkpurple);
+    color: var(--beige);
+    padding: 1.5rem;
+    border-radius: 55px;
+    /* Coins arrondis */
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+    /* Ombre */
+    max-width: 400px;
+    /* Largeur maximale (modulable) */
+    margin: 1rem auto;
+    /* Centrer et espacement vertical */
+    position: relative;
+    /* Nécessaire pour positionner le texte en bas à droite */
+}
+
+.card__light {
+    right: 100px;
+}
