@@ -1,0 +1,48 @@
+.accueil-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* Espacement horizontal entre les boutons */
+    margin-top: 2rem;
+    /* Espacement au-dessus du groupe de boutons */
+}
+
+.accueil-service-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    color: var(--black);
+    text-align: center;
+}
+
+.accueil-service-button img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.accueil-service-button span {
+    font-size: var(--fs-md);
+    color: var(--black);
+    font-weight: bold;
+}
+
+.accueil-service-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.accueil-service-button:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.accueil-service-button:hover span {
+    color: var(--darkpurple);
+}

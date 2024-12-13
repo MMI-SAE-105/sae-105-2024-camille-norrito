@@ -26,6 +26,8 @@
 
 /* Components */
 @import "components/accordeonPartenaire.css";
+@import "components/accueil.css";
+@import "components/articles.css";
 @import "components/button.css";
 @import "components/card.css";
 @import "components/carousel.css";
@@ -35,6 +37,7 @@
 @import "components/menu.css";
 @import "components/list.css";
 @import "components/team.css";
+@import "components/trailer.css";
 
 
 /*Trailer*/

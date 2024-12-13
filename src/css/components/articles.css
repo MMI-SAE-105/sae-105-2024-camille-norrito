@@ -1,0 +1,30 @@
+.articles-accueil {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.articles {
+    padding: 1rem;
+    /* Espacement interne */
+    border-radius: 0;
+    /* Coins arrondis */
+    text-align: left;
+    /* Centrer le texte */
+}
+
+.articles h3 {
+    font-size: var(--fs-xl);
+    font-family: var(--font-title-orb);
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.section__image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 1rem;
+}
+

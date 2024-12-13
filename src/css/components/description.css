@@ -1,5 +1,7 @@
 .description{
     margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px
     
 }
 
@@ -8,5 +10,6 @@
     padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;;
+    
 }
