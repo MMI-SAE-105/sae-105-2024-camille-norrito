@@ -20,9 +20,9 @@
 /* Conteneur des membres */
 .team-members {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     /* Colonnes adaptatives */
-    gap: 1.5rem;
+    gap: 1rem;
     /* Espacement entre les colonnes et les lignes */
     justify-content: center;
     align-items: start;
@@ -53,7 +53,7 @@
     font-size: var(--fs-lg);
     font-weight: bold;
     color: var(--black);
-    margin-top: 0.2rem;
+    margin-top: 0.2rem; 
     margin-bottom: 0.2rem;
 }
 
@@ -64,3 +64,4 @@
     margin-top: 0;
     margin-bottom: 15px;
 }
+
