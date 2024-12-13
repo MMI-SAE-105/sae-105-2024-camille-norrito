@@ -1,0 +1,28 @@
+/* Section du téléchargement du programme */
+.download-program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.download-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--fs-md);
+    font-family: var(--font-sans);
+    gap: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.download-link:hover {
+    color: var(--purple);
+}
+
+.download-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
