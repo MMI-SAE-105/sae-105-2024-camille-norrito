@@ -1,0 +1,66 @@
+/* Section équipe */
+.team {
+    padding: 2rem 1rem;
+    /* Espacement interne */
+    text-align: center;
+    /* Centrer le titre */
+}
+
+.team h4 {
+    font-size: var(--fs-3xl);
+    /* Taille du titre */
+    font-family: var(--font-title-orb);
+    /* Police personnalisée */
+    color: var(--black);
+    /* Couleur noire */
+    margin-bottom: 2rem;
+    /* Espacement sous le titre */
+}
+
+/* Conteneur des membres */
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Colonnes adaptatives */
+    gap: 1.5rem;
+    /* Espacement entre les colonnes et les lignes */
+    justify-content: center;
+    align-items: start;
+}
+
+/* Style des membres */
+.member {
+    text-align: left;
+
+}
+
+/* Image des membres */
+.member img {
+    display: block;
+    width: 100%;
+    /* Prend toute la largeur de l'espace disponible */
+    max-width: 100%;
+    /* Pas de dépassement */
+    height: auto;
+    /* Garde les proportions */
+    margin-bottom: 0.5rem;
+
+
+}
+
+/* Nom des membres */
+.member h5 {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    color: var(--black);
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/* Rôle des membres */
+.member h6 {
+    font-size: var(--fs-md);
+    color: var(--black);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
