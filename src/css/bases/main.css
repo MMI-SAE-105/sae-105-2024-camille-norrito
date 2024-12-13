@@ -1,6 +1,13 @@
+/* main {
+    width: 100vw;
+} */
+
 img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
+    z-index: 0;
+    
 }
 
 body {
@@ -19,11 +26,22 @@ p {
     /* Semibold */
 }
 
+p .separator::before {
+    content: "";
+    background: black;
+    width: 50%;
+    height: 1px;
+    display: block;
+    margin: auto;
+
+}
+
 h1 {
     font-family: var(--font-title-orb);
     font-size: var(--fs-3xl);
     /* 32px */
     font-weight: 600;
+    color: var(--pink);
     /* Semibold */
 }
 
@@ -64,12 +82,4 @@ h6 {
     /* Light */
 }
 
-p .separator::before {
-    content: "";
-    background: black;
-    width: 50%;
-    height: 1px;
-    display: block;
-    margin: auto;
 
-}
