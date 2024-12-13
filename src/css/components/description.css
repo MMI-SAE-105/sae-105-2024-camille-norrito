@@ -13,3 +13,47 @@
     padding-right: 15px;;
     
 }
+
+
+.description.info-prix h3 {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+
+.description.info-prix h3::after {
+    content: "";
+    display: inline-block;
+    width: calc(100% - 2px);
+    height: 1px;
+    background-color: var(--black);
+    margin-left: 10px;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.description.info-prix p:first-of-type,
+.description.info-prix p:nth-of-type(3) {
+    font-size: var(--fs-lg);
+    font-weight: bold;
+    color: var(--black);
+    text-align: right;
+    margin: 0;
+    float: right;
+    width: 80px;
+}
+
+.description.info-prix p:nth-of-type(2),
+.description.info-prix p:nth-of-type(4) {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: var(--fs-md);
+    color: var(--black);
+    line-height: 1.5;
+    clear: both;
+}
