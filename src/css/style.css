@@ -25,6 +25,7 @@
 @import "layout/header.css";
 
 /* Components */
+@import "components/accordeonPartenaire.css";
 @import "components/card.css";
 @import "components/carousel.css";
 @import "components/menu.css";
